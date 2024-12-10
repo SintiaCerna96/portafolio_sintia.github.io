@@ -1,0 +1,27 @@
+.contenedor {
+    display: flex;
+    height: 600px;
+    text-align: center;
+    border: 3PX solid #000000;
+    flex-direction: row;   /* los elementos cambian de direccion*/
+    /*row, row-reves, colum, colum-reves */
+    flex-wrap: wrap; /* no wrap, wrap, controla a los elementos hijos para que se adapten a una nueva fila o columna */
+   /* flex-flow: ; /* el flex flow aplica las 2 propiedades anteriores */
+    /* Propiedades de alineacion */
+   justify-content: center; /* end, start, center, space-between: pone el primer elemento al inicio y el ultimo al final, distribuye los espacion entre si de manera homogenea, space-araund, distribuye los espacios para todos los elementos de manera homogenea, space-evenly, genera un mismo espacio entre los bordes y los elentos hijos */
+   align-items: stretch ;
+   /*start, end, center, strech */
+   align-content: center;   /* controla el espacio que hay entre lineas cuando existen multiples elementos */
+}
+
+.contenedor div {
+    width: 100px;
+    height: 100px;
+    background-color: #6e998b;
+    margin: 10px;
+}
+
+.contenedor div p {
+    font-size: 40px;
+    text-align: center;
+}

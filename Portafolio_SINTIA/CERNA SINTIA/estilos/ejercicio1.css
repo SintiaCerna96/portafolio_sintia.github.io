@@ -1,0 +1,49 @@
+.contain1 {
+    border: 5px solid #d34848;
+    padding: 15px;
+}
+
+.contain1 div {
+    border: 5px solid #181717;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.contain2 {
+    width: 500px;
+    background-color: #f1adad;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.contain2 p {
+    border: 5px solid #181717;
+    margin: 10px;
+}
+
+/* Seleccionar elementos hijos con seudoclase */
+
+.contain2 p:first-child {
+    background-color: #97f283;
+} /* selecciona al primer hijo */
+
+.contain2 p:last-child {
+    background-color: #efa3f8;
+}  /* selecciona al segundo hijo */
+
+.contain2 p:nth-child(2) {
+    background-color: #79becf;  /* selecciona al hijo que indiquemos dentro de los parentesis, si queremos seleccionar los pares uso el valor even, los impares odd */
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #181717;
+    position: relative;
+    top: 38px;
+}
