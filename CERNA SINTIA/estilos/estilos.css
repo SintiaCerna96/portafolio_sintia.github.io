@@ -1,0 +1,107 @@
+.LD {
+    color: blueviolet;
+    text-align: center;
+    font-size: 80px;
+}
+
+.P {
+    color: aquamarine;
+    font-family: 'Comic Sans MS';
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+.P2 {
+    color: rgb(28, 91, 70);
+    font-family: 'Comic Sans MS';
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+ol {
+    background-color: yellowgreen;
+    font-style: italic;
+}
+
+.w {
+    text-align: right;
+}
+
+div {
+    width: 390px;
+    text-align: center;
+    background-color: #c5b5b5e8;
+    border-radius: 10px 0 10px 0;
+    background-image: url(https://thumbs.dreamstime.com/b/mariposas-bonitas-que-vuelan-libremente-8803634.jpg);
+    color: aliceblue;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.pc {
+    text-align: justify;
+    background-color: #a7f0f9;
+    color: #877777;
+    margin: 0;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/foto-gratis/hermoso-camino-madera-que-impresionantes-arboles-coloridos-bosque_181624-5840.jpg);
+    background-size: cover;
+  
+}
+header {
+    background-color: #b8eb6d;
+    margin: 30px;
+}
+
+.h1 {
+    margin: 0;
+}
+
+.h2 {
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #939c9c;
+    color: #ffffff;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sec1 {
+    background: linear-gradient( #9e5454, #f1032b);
+    height: 300px;
+    width: 600px;
+    margin: 25px auto;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+}
+
+.sec2 {
+    background-color: #088b5f;
+    height: 300px;
+    width: 600px;
+    margin: 25px auto;
+    font-family: 'Comic Sans MS';
+    
+}
+
+aside {
+    background-color: #ffc0cb;
+    height: 100px;
+}
+
+footer {
+    background-color: #a7f0f9;
+    height: 200px;
+}

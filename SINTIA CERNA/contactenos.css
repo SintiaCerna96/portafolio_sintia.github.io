@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #b3f8e1d7;
+}
+
+header {
+    background-color: #5f5c5c75;
+    padding: 10px;
+    position: sticky;
+    top: 0; 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav div {
+    display: inline-block;
+    height: 25px;
+    position: relative;
+    top: 25px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+    font-family: Comic Sans MS;
+}
+
+li a {
+    color: #131514;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background-color 0.4s;
+}
+
+li a:hover {
+    background-color: #a52da5;
+}
+ 
+#i4 {
+    margin:15px ;
+    height: 25px;
+    width: 160px;
+    background-color: #f5f50c;
+    color: #050404;
+}
+
+.formulario {
+    margin: 0 auto;
+    width: 600px;
+}
+
+footer {
+    background-color: #000000;
+    color: #faf7f7;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    font-family: Comic Sans MS;
+}

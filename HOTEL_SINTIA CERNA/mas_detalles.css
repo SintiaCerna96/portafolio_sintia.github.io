@@ -1,0 +1,153 @@
+header {
+    background-image: url(https://www.amazingperu.com/images/hotel/hoteltumi.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #14121a;
+    font-family: Broadway;
+    padding: 20px;
+}
+p {
+    color: #0b62e4;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+
+nav li {
+    display: inline-block;
+}
+nav li a {
+    text-decoration: none;
+    color: #fdfeff;
+    font-family: Comic Sans MS;
+    font-size: 18px;   
+}
+
+.d_sec1 {
+    padding: 0 50px;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+
+.carts {
+    display: flex;
+    gap: 40px;
+    margin: 80px;
+}
+
+.carts div {
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.carts img {
+    max-width: 100%;
+    max-height:200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.carts2 {
+    display: flex;
+    gap: 40px;
+    margin: 80px;
+}
+
+.carts2 div {
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.d_sec2 {
+    padding: 0 50px;
+    text-align: center;
+}
+
+.d_sec3 {
+    text-align: left;
+    padding: 0 50px;
+    margin: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form input {
+    margin: 20px 0;
+    height: 40px;
+    border-radius: 5px;
+}
+
+select {
+    margin: 20px 0;
+    height: 40px;
+}
+
+button {
+    background-color: #5990e3;
+    height: 40px;
+    max-width: 80px;
+    color: #fdfeff;
+}
+
+footer{
+    background: linear-gradient(to right, #000,#858282);
+    color: #fff;
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{ 
+    color: #fff;
+    text-decoration: none;
+}
+
+h3{
+    color: #ffff00;
+}
+
+.contain_main {
+    display: flex;
+}
+
+.contain_main h2 {
+    color: #5990e3;
+}
+
+aside {
+    padding: 10px;
+}
+
+aside li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+aside:last-child {
+    max-width: 900px;
+}
+
+.aside2:last-child img {
+    width: 100%;
+    border-radius: 15px;
+}

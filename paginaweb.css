@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+} 
+
+header {
+    background-color: #757373d0;
+    padding: 15px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+    font-family: Comic Sans MS;
+}
+
+li a {
+    color: #efeded;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background-color 0.4s;
+}
+
+li a:hover {
+    background-color: #d99cd9;
+}
+
+.portada {
+    height: 300px;
+    background-image: url(https://a1.elespanol.com/cronicaglobal/2015/03/07/vida/vida_16261136_7151527_670x355.jpg);
+    background-size: cover;
+}
+.btn1 {
+    background-color: #7af487;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+    color: #faf7f7;
+    font-weight: bold;
+    font-family: Broadway;
+    position: absolute;
+    left: 50%;
+    top: 280px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.cartas {
+    text-align: center;
+    margin: auto;
+}
+
+.cartas  div {
+    width: 350px;
+    height: 500px;
+    background-color: #c883c3;
+    display: inline-block;
+    margin: 0 15px;
+    color: #1d546a;
+    text-align: center;
+    padding: 15px;
+    transition: box-shadow, 0,4s;
+}
+
+.cartas div:hover{
+    box-shadow: 0 0 5px 10px #161515 ;   /* Nos permite dar sombra a un elemento*/
+}
+.cartas div img {
+    width: 330px;
+    height: 200px;
+}
+
+.cartas div p {
+    text-align: justify;
+}
+
+.info {
+    width: 700px;
+    margin: 15px auto;
+    text-align: center;
+    background-color: #949898;
+    padding: 15px;
+}
+
+.info p {
+    text-align: justify;
+   
+}
+
+footer {
+    background-color: #000000;
+    color: #faf7f7;
+    padding: 20px;
+
+}
+
+/* .caja {
+    width: 200px;
+    height: 200px;
+    background-color: #e18be1;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative; */
+    /*PROPIEDADES DE TRANSITION */
+    /* transition-property: top, color, width;
+    transition-duration: 4s;
+    transition-timing-function: cubic-bezier(.15,1.23,.67,.13);
+    transition-delay: 4s; */
+    /*PROPIEDAD CORTA: TRANSITION: 1 valor es el transition property, 2 valor es el de transition duration, 3 valor de transition timing funtion, 4 vaolor transition delay */
+    /* transition: top 3s cubic-bezier(.15,1.23,.67,.13) 2s;
+    top : 0;
+}
+
+body:hover .caja {
+   top: 300px;
+   color: #7af487;
+   width: 350px;
+} */
+
+.fondo {
+    background-image: url(https://img.freepik.com/fotos-premium/impresionante-belleza-naturaleza-hermoso-paisaje-agradable-paisaje_1105964-15628.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 100vw;
+    height: 150px;
+}
+
+.sec1_qs {
+    text-align: center;
+    color: #1d6a6a;
+    width: 700px;
+    margin: 0 auto;
+    font-family: Comic Sans MS;
+}
+
+.line {
+    border-bottom: 4px dotted #1d6a6a;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+.sec1_qs p {
+    font-size: 20px;
+    color: #000000;
+}
+
+.sec2_qs {
+    text-align: center;
+    width: 1000px;
+
+    margin:  0 auto;
+    color: #1d6a6a;
+}
+.line2 {
+    border-bottom: 4px dotted #1d6a6a;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.sec2_qs div img {
+    height: 200px;
+    width: 250px;
+}
+
+.sec2_qs div h3 {
+    color: #000000;
+}
+
+.sec2_qs div p {
+    text-align: justify;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+/*Propiedades de desbordamiento*/
+
+.desborde {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(90, 10, 98);
+    /*DESBORDAMIENTO*/
+    /*desbordamiento, valores, hidden, visible, scroll, auto*/
+    overflow: scroll;
+    /*para controlar las barras scroll en el eje x o y usamos las propiedades:
+     overflow-x: scroll
+     overflow-y: hidden; si queremos que sea visible le damos el valor de scroll caso contrario hidden */
+}
+
+.desb {
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(10, 48, 98);
+     
+}
+
+.desb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /*objet-fit nos permite ajustar el contenido dentro de una caja y se utiliza especialmente con imagenes o archivos multimedia*/
+    /* valores de objet-fit: none, fill, cover, contain, scale-down (nonen contain)*/
+    object-position: top;
+}
